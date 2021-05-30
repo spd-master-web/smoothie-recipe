@@ -84,7 +84,7 @@ img {
 
 #about {
     background-color: #000000;
-    height: 1080px;
+    height: 900px;
     padding-top: 2%;
 }
 
@@ -119,5 +119,9 @@ img {
 
     p {
         font-size: 14px;
+    }
+
+    #about {
+        padding: 4%;
     }
 }
