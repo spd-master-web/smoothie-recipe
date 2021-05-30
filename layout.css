@@ -1,1 +1,39 @@
 /* new layout */
+a {
+    text-transform: uppercase;
+}
+
+a, dd, dt, h1, h3, h4, h5, li, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:not(.aNav), dd, dt, h2, h3, h4, h5, li, p {
+    color: #61BFAE;
+}
+
+h1, .aNav {
+    color: #ffffff;
+}
+
+h2 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.aNav {
+    background-color: #61BFAE80;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.liNav {
+    margin-bottom: 25px;
+}
+
+#ulNav {
+    list-style-type: none;
+}

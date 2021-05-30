@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smoothie Site</title>
   <meta name="description" content="The smoothest smooth-ies by SPD.">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="layout.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
 
@@ -18,14 +18,10 @@
     <!-- navigation -->
     <nav>
       <!-- ul>li*2>a -->
-      <ul>
+      <ul id="ulNav">
       <!-- unordered or ordered list can only contain <li> a adirect child -->
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
+        <li class="liNav"><a class="aNav" href="#recipies">Recipies</a></li>
+        <li class="liNav"><a class="aNav" href="#about">About this page</a></li>
       </ul>
     </nav>
   </header>
@@ -35,7 +31,7 @@
     <!-- main content of this page (f.ex. blog post, blog list,...)
          https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
     -->
-    <h1>Smoothies</h1>
+    <h1>The smoothest smooth-ies.</h1>
 
     <section id="recipies">
       <h2>Recipies</h2>
@@ -119,28 +115,10 @@
       <p>Minima eum illum non repellat eligendi, hic recusandae blanditiis velit dolor ad illo numquam nihil, aliquid quasi corrupti exercitationem mollitia iste. Vel illum dolorem dignissimos enim neque vitae dicta sapiente?</p>
       <p>Perspiciatis voluptas nisi, amet exercitationem commodi ipsam eius magni aperiam possimus quis error illo cupiditate molestias necessitatibus sunt debitis natus architecto dolores harum. Quos, temporibus cum minus nulla aut quis!</p>
     </section>
-
   </main>
 
   <footer>
-
+    <p>Copyright &copy 2021</p>
   </footer>
-
-  <aside>
-    <!-- sidebar with additional info (f.ex. latest, most popular blog posts) -->
-  </aside>
-
-
-  <!--
-    non semantic elements:
-    <div></div> - block level element
-    <span></span> - inline element
-
-    semantic elements:
-    block level elements
-    <main><header><footer><aside><article><section><nav><h1><p>
-    inline elements
-    <a><strong><em>
-  -->
 </body>
 </html>
